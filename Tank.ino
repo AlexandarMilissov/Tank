@@ -1,6 +1,6 @@
-#include <SoftwareSerial.h>
+#include <SoftwareSerial.h> // for serial comm on pins other than RX and TX
 
-byte remote_data;
+char remote_data;
 
 SoftwareSerial Bluetooth(13, 12); // RX, TX on Arduino, connected to TX, RX on Bluetooth Module
 
@@ -87,7 +87,7 @@ void MoveTrack(struct Track track, int speed_val, bool forward) {
   {
     digitalWrite(track.pin1, LOW);
     digitalWrite(track.pin2, LOW);
-    return; // because analogWrite?
+    return; 
   }
   else if (forward) // move track forwards
   {
