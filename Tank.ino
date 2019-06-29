@@ -75,7 +75,7 @@ void loop() {
         MoveTrack(right_track, 255, false);
         break;
       default:
-        Serial.println("uknown command received");
+        Serial.println("unknown command received");
         break;
     }
   }

@@ -14,26 +14,25 @@ import java.util.*
 
 class TankControlActivity : AppCompatActivity() {
 
+    // static properties
     companion object {
         var m_myUUID: UUID =
-            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB") // UUID of Bluetooth module (check ln80)
-        // default uuid for serial comm
-        var m_bluetoothSocket: BluetoothSocket? = null
+            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB") // UUID to connect to Bluetooth module, default for serial comm
 
-        // lateinit var m_progress: ProgressDialog // what do ??
+        var m_bluetoothSocket: BluetoothSocket? = null
         lateinit var m_bluetoothAdapter: BluetoothAdapter
         var m_isConnected: Boolean = false
-        lateinit var m_address: String // MAC address of Tank bluetooth module
+        var m_address: String? = "" // MAC address of Tank bluetooth module
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tank_control_layout) // set ui
+        setContentView(R.layout.tank_control_layout) // Set app UI
 
-        // MAC address of Tank bluetooth module
+        // get MAC address of Tank bluetooth module
         m_address = intent.getStringExtra(MainActivity.EXTRA_ADDRESS)
 
-        ConnectToDevice(this).execute() // koe e this LMAO
+        ConnectToDevice(this).execute() // this = Current context
 
         // left track stop
         left_track_stop.setOnClickListener {
@@ -78,14 +77,14 @@ class TankControlActivity : AppCompatActivity() {
         }
 
 
-        // disconnect button, to close connection w/ curr device
+        // disconnect button, to close connection w/ curr device (Bluetooth module)
         close_connection.setOnClickListener {
-            Log.i("connection", "closing connection")
+            Log.i("connection", "closing connection. . . ")
             disconnect()
         }
     }
 
-
+    // send commands via Bluetooth
     private fun sendCommand(input: String) {
         if (m_bluetoothSocket != null) {
             try {
@@ -96,6 +95,7 @@ class TankControlActivity : AppCompatActivity() {
         }
     }
 
+    // terminate Bluetooth connection
     private fun disconnect() {
         if (m_bluetoothSocket != null) {
             try {
@@ -109,6 +109,7 @@ class TankControlActivity : AppCompatActivity() {
         finish()
     }
 
+    // connect to device via Bluetooth
     private class ConnectToDevice(c: Context) : AsyncTask<Void, Void, String>() {
         private var connectSuccess: Boolean = true
         private val context: Context
@@ -119,13 +120,12 @@ class TankControlActivity : AppCompatActivity() {
 
         override fun onPreExecute() {
             super.onPreExecute()
-            // m_progress = ProgressDialog.show(context, "Connecting...", "please wait")
         }
 
         override fun doInBackground(vararg p0: Void?): String? {
             try {
 
-                // prep for connection
+                // prep for connection, var assignment
                 if (m_bluetoothSocket == null || !m_isConnected) {
                     m_bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
                     val device: BluetoothDevice = m_bluetoothAdapter.getRemoteDevice(m_address)
@@ -133,12 +133,15 @@ class TankControlActivity : AppCompatActivity() {
                     BluetoothAdapter.getDefaultAdapter().cancelDiscovery()
 
                     m_bluetoothSocket!!.connect() // attempt to connect to device
+
+                    // log after successful connection
                     Log.i("connection", "connected to Bluetooth module")
 
                 }
-            } catch (e: IOException) {
+            } catch (e: IOException) { // if connection fails
                 connectSuccess = false
                 e.printStackTrace()
+                Log.i("connection", "connection failed")
             }
             return null
         }
@@ -150,8 +153,6 @@ class TankControlActivity : AppCompatActivity() {
             } else {
                 m_isConnected = true
             }
-            // m_progress.dismiss()
-
         }
     }
 }
