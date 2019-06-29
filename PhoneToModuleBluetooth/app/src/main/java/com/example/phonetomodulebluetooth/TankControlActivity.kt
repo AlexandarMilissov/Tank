@@ -35,14 +35,52 @@ class TankControlActivity : AppCompatActivity() {
 
         ConnectToDevice(this).execute() // koe e this LMAO
 
-        left_track_forward.setOnClickListener {
+        // left track stop
+        left_track_stop.setOnClickListener {
             val command = "a"
+            sendCommand(command)
+            Log.i("left_track", "stop")
+        }
+
+        // left track forward
+        left_track_forward.setOnClickListener {
+            val command = "b"
             sendCommand(command)
             Log.i("left_track", "fwd")
         }
 
+        // left track backwards
+        left_track_backwards.setOnClickListener {
+            val command = "c"
+            sendCommand(command)
+            Log.i("left_track", "bckwd")
+        }
+
+        // right track stop
+        right_track_stop.setOnClickListener {
+            val command = "d"
+            sendCommand(command)
+            Log.i("right_track", "stop")
+        }
+
+        // right track foward
+        right_track_forward.setOnClickListener {
+            val command = "e"
+            sendCommand(command)
+            Log.i("right_track", "fwd")
+        }
+
+        // right track backwards
+        right_track_backwards.setOnClickListener {
+            val command = "f"
+            sendCommand(command)
+            Log.i("right_track", "bckwd")
+        }
+
+
         // disconnect button, to close connection w/ curr device
         close_connection.setOnClickListener {
+            Log.i("connection", "closing connection")
             disconnect()
         }
     }

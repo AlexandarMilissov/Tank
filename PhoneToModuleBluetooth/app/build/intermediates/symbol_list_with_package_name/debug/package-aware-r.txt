@@ -719,7 +719,9 @@ id info
 id invisible
 id italic
 id left
+id left_track_backwards
 id left_track_forward
+id left_track_stop
 id line1
 id line3
 id listMode
@@ -745,6 +747,9 @@ id refresh_button
 id right
 id right_icon
 id right_side
+id right_track_backwards
+id right_track_forward
+id right_track_stop
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -883,8 +888,13 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string disconnect
+string left_track_backwards
 string left_track_forward
+string left_track_stop
 string refresh
+string right_track_backwards
+string right_track_forward
+string right_track_stop
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

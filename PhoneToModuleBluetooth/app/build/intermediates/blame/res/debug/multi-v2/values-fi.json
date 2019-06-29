@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
+            "outputFile": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "/home/tuble/.gradle/caches/transforms-2/files-2.1/a972393a436710bd84f1320057e97e04/core-1.0.2/res/values-fi/values-fi.xml",

@@ -1,4 +1,4 @@
-#Sat Jun 29 13:11:06 EEST 2019
-base.0=/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/build/intermediates/dex/debug/out/classes.dex
+#Sat Jun 29 13:50:05 EEST 2019
+base.0=/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

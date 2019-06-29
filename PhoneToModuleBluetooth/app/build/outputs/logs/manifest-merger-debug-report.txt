@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/05afbb38c7f44cb99814d3e48eb52b92/core-ktx-1.0.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tuble/.gradle/caches/transforms-2/files-2.1/9af8a7d3172284cec97c7e9c6b5a2f2f/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -32,37 +32,37 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tuble/.gradle/cache
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/tuble/.gradle/caches/transforms-2/files-2.1/6c93d3a60ab8279d8fe695a7e01a0808/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/tuble/.gradle/caches/transforms-2/files-2.1/0a689bbd23d93c3371e0a9e6ffb7a973/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/tuble/.gradle/caches/transforms-2/files-2.1/8bd5f2c8f674e0f1bda851ea4251acf7/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:3:5-49
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:6:5-68
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:6:22-65
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:6:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:7:5-73
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:7:5-73
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:7:22-71
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:7:22-71
 uses-feature#android.hardware.bluetooth
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:8:5-62
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:8:5-62
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:8:19-60
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:8:19-60
 application
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:10:5-34:19
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:10:5-34:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tuble/.gradle/caches/transforms-2/files-2.1/9af8a7d3172284cec97c7e9c6b5a2f2f/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tuble/.gradle/caches/transforms-2/files-2.1/9af8a7d3172284cec97c7e9c6b5a2f2f/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/a972393a436710bd84f1320057e97e04/core-1.0.2/AndroidManifest.xml:22:5-89
@@ -72,49 +72,49 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/tuble
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/a972393a436710bd84f1320057e97e04/core-1.0.2/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.phonetomodulebluetooth.MainActivity
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:9-23:20
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:9-23:20
 	android:screenOrientation
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:48-84
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:48-84
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.example.phonetomodulebluetooth.TankControlActivity
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:9-32:20
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:9-32:20
 	android:screenOrientation
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:55-91
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:55-91
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:19-54
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:19-54
 intent-filter#action:name:android.intent.action.CONTROL+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:26:13-31:29
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:26:13-31:29
 action#android.intent.action.CONTROL
-ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:28:17-71
+ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:28:17-71
 	android:name
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:28:25-69
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:28:25-69
 uses-sdk
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/05afbb38c7f44cb99814d3e48eb52b92/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
@@ -171,13 +171,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/tuble/.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/tuble/.gradle/caches/transforms-2/files-2.1/0a689bbd23d93c3371e0a9e6ffb7a973/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/tuble/.gradle/caches/transforms-2/files-2.1/8bd5f2c8f674e0f1bda851ea4251acf7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/tuble/.gradle/caches/transforms-2/files-2.1/8bd5f2c8f674e0f1bda851ea4251acf7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		ADDED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
