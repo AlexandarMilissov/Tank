@@ -87,7 +87,7 @@ void MoveTrack(struct Track track, int speed_val, bool forward) {
   {
     digitalWrite(track.pin1, LOW);
     digitalWrite(track.pin2, LOW);
-    return; 
+    return;
   }
   else if (forward) // move track forwards
   {

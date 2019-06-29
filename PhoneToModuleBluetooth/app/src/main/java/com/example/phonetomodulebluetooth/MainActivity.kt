@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
     // static properties
     companion object {
         val EXTRA_ADDRESS: String = "" // device addr
-        val EXTRA_NAME: String = "" // device addr
-
     }
 
     // UI + data init
@@ -43,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         if(!m_bluetoothAdapter!!.isEnabled) {
             val enableBTIntent = Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE)
             startActivityForResult(enableBTIntent, REQUEST_ENABLE_BLUETOOTH)
-//            Log.i("bluetooth", "device's bluetooth is now on")
+            //Log.i("bluetooth", "device's bluetooth is now on")
         }
 
 
