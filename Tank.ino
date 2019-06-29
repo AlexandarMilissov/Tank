@@ -29,7 +29,7 @@ void setup() {
 
   pinMode(left_track.pin1, OUTPUT);
   pinMode(left_track.pin2, OUTPUT);
-  pinMode(left_track.enable, OUTPUT); // pwm?
+  pinMode(left_track.enable, OUTPUT); // pwm
 
   //right_track definition
   right_track.pin1 = 8;
@@ -38,14 +38,11 @@ void setup() {
 
   pinMode(right_track.pin1, OUTPUT);
   pinMode(right_track.pin2, OUTPUT);
-  pinMode(right_track.enable, OUTPUT); // pwm?
+  pinMode(right_track.enable, OUTPUT); // pwm
 
   Bluetooth.begin(9600);
   Bluetooth.println("Bluetooth module start");
 
-
-
-  MoveTrack(left_track, 255, true);
 }
 
 void loop() {
@@ -102,5 +99,5 @@ void MoveTrack(struct Track track, int speed_val, bool forward) {
     digitalWrite(track.pin2, LOW);
   }
 
-  analogWrite(track.enable, speed_val); // no fucking idea
+  analogWrite(track.enable, speed_val); 
 }
