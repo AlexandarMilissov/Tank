@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
 
         // if device doesnt support BT
         if(m_bluetoothAdapter == null) {
-            // spit out some err
             Log.i("bluetooth", "not supported")
             return
         }
@@ -52,22 +51,26 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    // get list of paired devices to the Bluetooth adapter
+    // list all paired devices to the Bluetooth adapter
     private fun pairedDeviceList() {
         m_pairedDevices = m_bluetoothAdapter!!.bondedDevices // get data set of paired devices
 
-        val all_devices : ArrayList<BluetoothDevice> = ArrayList()
+        val all_devices : ArrayList<BluetoothDevice> = ArrayList() // collection of all paired devices
+        val all_devices_names : ArrayList<String> = ArrayList() // get the names of all paired devices
 
-        if (!m_pairedDevices.isEmpty()) { // if there are paired devices, populate all_devices collection
+        if (!m_pairedDevices.isEmpty()) { // if there are paired devices, populate all_devices and all_devices_names collection
             for (device: BluetoothDevice in m_pairedDevices) {
                 all_devices.add(device)
-                Log.i("bluetooth", "found: " +device.name + " - MAC -  " + device) // log name + MAC addr for every paired device found
+                all_devices_names.add(device.name)
+                Log.i("bluetooth", "found: " + device.name + " - MAC -  " + device) // log name + MAC addr for every paired device found
             }
         } else { // if no paired devices found, log msg
             Log.i("bluetooth", "no paired devices found")
         }
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, all_devices) // handle UI list
+
+        // generates list UI
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, all_devices_names) // handle UI list
         list_all_devices.adapter = adapter
 
         list_all_devices.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
