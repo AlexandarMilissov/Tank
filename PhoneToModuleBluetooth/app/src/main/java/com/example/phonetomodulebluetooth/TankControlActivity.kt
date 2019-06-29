@@ -25,6 +25,7 @@ class TankControlActivity : AppCompatActivity() {
         var m_address: String? = "" // MAC address of Tank bluetooth module
     }
 
+    // UI + data init
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tank_control_layout) // Set app UI
