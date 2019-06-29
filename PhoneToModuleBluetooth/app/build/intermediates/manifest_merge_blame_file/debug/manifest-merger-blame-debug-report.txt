@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.phonetomodulebluetooth"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:6:5-68
+11-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:7:5-73
+12-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:7:22-71
+13
+14    <uses-feature android:name="android.hardware.bluetooth" />
+14-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:8:5-62
+14-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:8:19-60
+15
+16    <application
+16-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:10:5-34:19
+17        android:allowBackup="true"
+17-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.2] /home/tuble/.gradle/caches/transforms-2/files-2.1/a972393a436710bd84f1320057e97e04/core-1.0.2/AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:16:9-40
+26        <activity
+26-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:9-23:20
+27            android:name="com.example.phonetomodulebluetooth.MainActivity"
+27-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:19-47
+28            android:screenOrientation="portrait" >
+28-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:17:48-84
+29            <intent-filter>
+29-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:19:17-69
+30-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:17-77
+32-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:9-32:20
+36            android:name="com.example.phonetomodulebluetooth.TankControlActivity"
+36-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:19-54
+37            android:screenOrientation="portrait" >
+37-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:25:55-91
+38            <intent-filter>
+38-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:26:13-31:29
+39
+40                <!-- pomosht -->
+41                <action android:name="android.intent.action.CONTROL" />
+41-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:28:17-71
+41-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:28:25-69
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:17-77
+43-->/home/tuble/Desktop/MQSTO/KachowTank/PhoneToModuleBluetooth/app/src/main/AndroidManifest.xml:21:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

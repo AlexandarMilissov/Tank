@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhoneToModuleBluetooth</string>
+    <string name="refresh">refresh</string>
+    <string name="left_track_forward">left_track_forward</string>
+    <string name="disconnect">disconnect</string>
+
+</resources>

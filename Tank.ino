@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-char remote_data;
+byte remote_data;
 
 SoftwareSerial Bluetooth(13, 12); // RX, TX on Arduino, connected to TX, RX on Bluetooth Module
 
@@ -54,27 +54,27 @@ void loop() {
 
     remote_data = Bluetooth.read();
 
-    if (remote_data == '0') {
+    if (remote_data == 'a') {
       Serial.println("stop left track");
       MoveTrack(left_track, 0, false);
     }
-    else if (remote_data == '1') {
+    else if (remote_data == 'b') {
       Serial.println("left track forward");
       MoveTrack(left_track, 255, true);
     }
-    else if (remote_data == '2') {
+    else if (remote_data == 'c') {
       Serial.println("left track backward");
       MoveTrack(left_track, 255, false);
     }
-    else if (remote_data == '3') {
+    else if (remote_data == 'd') {
       Serial.println("stop right track");
       MoveTrack(right_track, 0, false);
     }
-    else if (remote_data == '4') {
+    else if (remote_data == 'e') {
       Serial.println("right track forward");
       MoveTrack(right_track, 255, true);
     }
-    else if (remote_data == '5') {
+    else if (remote_data == 'f') {
       Serial.println("right track backward");
       MoveTrack(right_track, 255, false);
     }
