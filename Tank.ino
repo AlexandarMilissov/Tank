@@ -41,8 +41,6 @@ void setup() {
   pinMode(right_track.enable, OUTPUT); // pwm
 
   Bluetooth.begin(9600);
-  Bluetooth.println("Bluetooth module start");
-
 }
 
 void loop() {
@@ -51,33 +49,36 @@ void loop() {
 
     remote_data = Bluetooth.read();
 
-    if (remote_data == 'a') {
-      Serial.println("stop left track");
-      MoveTrack(left_track, 0, false);
+    switch (remote_data) {
+      case 'a':
+        Serial.println("stop left track");
+        MoveTrack(left_track, 0, false);
+        break;
+      case 'b':
+        Serial.println("left track forward");
+        MoveTrack(left_track, 255, true);
+        break;
+      case 'c':
+        Serial.println("left track backward");
+        MoveTrack(left_track, 255, false);
+        break;
+      case 'd':
+        Serial.println("stop right track");
+        MoveTrack(right_track, 0, false);
+        break;
+      case 'e':
+        Serial.println("right track forward");
+        MoveTrack(right_track, 255, true);
+        break;
+      case 'f':
+        Serial.println("right track backward");
+        MoveTrack(right_track, 255, false);
+        break;
+      default:
+        Serial.println("uknown command received");
+        break;
     }
-    else if (remote_data == 'b') {
-      Serial.println("left track forward");
-      MoveTrack(left_track, 255, true);
-    }
-    else if (remote_data == 'c') {
-      Serial.println("left track backward");
-      MoveTrack(left_track, 255, false);
-    }
-    else if (remote_data == 'd') {
-      Serial.println("stop right track");
-      MoveTrack(right_track, 0, false);
-    }
-    else if (remote_data == 'e') {
-      Serial.println("right track forward");
-      MoveTrack(right_track, 255, true);
-    }
-    else if (remote_data == 'f') {
-      Serial.println("right track backward");
-      MoveTrack(right_track, 255, false);
-    }
-
   }
-
 }
 
 void MoveTrack(struct Track track, int speed_val, bool forward) {
@@ -99,5 +100,5 @@ void MoveTrack(struct Track track, int speed_val, bool forward) {
     digitalWrite(track.pin2, LOW);
   }
 
-  analogWrite(track.enable, speed_val); 
+  analogWrite(track.enable, speed_val);
 }
