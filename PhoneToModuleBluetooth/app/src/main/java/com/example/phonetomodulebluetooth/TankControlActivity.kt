@@ -30,7 +30,7 @@ class TankControlActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tank_control_layout) // Set app UI
 
-        // get MAC address of Tank bluetooth module
+        // get MAC address of Tank bluetooth module from MainActivity
         m_address = intent.getStringExtra(MainActivity.EXTRA_ADDRESS)
 
         ConnectToDevice(this).execute() // this = Current context

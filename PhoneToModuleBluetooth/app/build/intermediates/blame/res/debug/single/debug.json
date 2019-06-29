@@ -28,16 +28,16 @@
         "source": "/home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/res/layout/activity_main.xml"
+        "merged": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "/home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "/home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "/home/tuble/.gradle/caches/transforms-2/files-2.1/674b50d7e877da63f04f504ffc11adf3/appcompat-1.0.2/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/build/intermediates/res/merged/debug/layout_abc_tooltip.xml.flat",

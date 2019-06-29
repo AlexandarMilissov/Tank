@@ -70,9 +70,11 @@
                 {
                     "source": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "-1,-1,-1",
-                        "startColumns": "-1,-1,-1",
-                        "startOffsets": "-1,-1,-1"
+                        "startLines": "-1,-1,7",
+                        "startColumns": "-1,-1,8",
+                        "startOffsets": "-1,-1,276",
+                        "endColumns": "-1,-1,54",
+                        "endOffsets": "-1,-1,322"
                     },
                     "to": {
                         "startLines": "153,154,155",
@@ -85,11 +87,9 @@
                 {
                     "source": "/home/tuble/Desktop/MQSTO/KachowTank/Tank/PhoneToModuleBluetooth/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,5,4,6,-1,9,8,10",
-                        "startColumns": "-1,-1,4,4,4,-1,4,4,4",
-                        "startOffsets": "-1,-1,187,121,256,-1,385,317,456",
-                        "endColumns": "-1,-1,68,65,59,-1,70,67,61",
-                        "endOffsets": "-1,-1,251,182,311,-1,451,380,513"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "377,378,379,380,381,382,383,384,385",
