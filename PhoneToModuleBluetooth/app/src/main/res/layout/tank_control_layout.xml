@@ -72,7 +72,7 @@
         tools:ignore="MissingConstraints" />
 
 
-
+    <!-- disconnect button -->
     <Button
         android:id="@+id/close_connection"
         android:layout_width="wrap_content"

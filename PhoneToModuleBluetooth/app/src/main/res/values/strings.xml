@@ -2,13 +2,13 @@
     <string name="app_name">PhoneToModuleBluetooth</string>
     <string name="refresh">refresh</string>
 
-    <string name="left_track_forward">left_track_forward</string>
-    <string name="left_track_backwards">left_track_backwards</string>
-    <string name="left_track_stop">left_track_stop</string>
+    <string name="left_track_forward">Left Track Forward</string>
+    <string name="left_track_backwards">Left Track Backward</string>
+    <string name="left_track_stop">Left Track Stop</string>
 
-    <string name="right_track_forward">right_track_forward</string>
-    <string name="right_track_backwards">right_track_backwards</string>
-    <string name="right_track_stop">right_track_stop</string>
+    <string name="right_track_forward">Right Track Forward</string>
+    <string name="right_track_backwards">Right Track Backward</string>
+    <string name="right_track_stop">Right Track Stop</string>
 
     <string name="disconnect">disconnect</string>
 
